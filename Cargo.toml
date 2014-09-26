@@ -1,0 +1,8 @@
+[package]
+
+name = "rustless"
+version = "0.0.1"
+authors = ["Tuomas Tynkkynen <tuomas.tynkkynen@iki.fi>"]
+
+[[bin]]
+name = "rl"
