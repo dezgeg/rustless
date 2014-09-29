@@ -1,4 +1,12 @@
 [root]
 name = "rustless"
 version = "0.0.1"
+dependencies = [
+ "libtermutils 0.0.1 (git+https://github.com/dezgeg/rust-term.git#97474e55971d534a55ee1eb40c05417458f0f4d9)",
+]
+
+[[package]]
+name = "libtermutils"
+version = "0.0.1"
+source = "git+https://github.com/dezgeg/rust-term.git#97474e55971d534a55ee1eb40c05417458f0f4d9"
 
